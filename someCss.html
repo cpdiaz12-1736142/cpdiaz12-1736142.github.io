@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Christopher's some CSS</title>
+    </head>
+    <body>
+        <h1>Christopher Diaz</h1>
+        <h2>Paragraph 1</h2>
+        <p style="font-family: Arial"><b>I was born in California, but quickly moved to Atlanta. I later moved back to California and have lived there ever since. I am now in Washington and have loved it. I plan to stay here after college! I look forward to my journey here in Seattle and exploring all of the surounding areas.</b></p>
+        <h2>Paragraph 2</h2>
+        <p style="font-size: 20px">My favorite sport is basketball and I am a huge fan of the Lakers. They just won the championship and finally are able to leave the NBA Bubble. Go Lakers!</p>
+        <h2>My Favorite Pictures</h2>
+        <a href="https://www.usatoday.com/story/sports/nba/columnist/jeff-zillgitt/2020/10/12/lebron-james-lakers-championship-always-something-left-to-prove/5963424002/">
+            <img src="https://www.gannett-cdn.com/presto/2020/10/12/USAT/f1822cf7-bbf9-4a0e-b6db-7fddcc4e3035-LeBron.jpg?crop=3429,1929,x877,y504&width=3200&height=1801&format=pjpg&auto=webp" title="LeBron is the GOAT" style="width:50px;height:50px;margin:5px">
+        </a>
+        <a href="https://uwifc.com/chi-psi">
+            <img src="https://images.squarespace-cdn.com/content/v1/570ec8a48259b53bf09d3da4/1557943112711-EKPY5TY7DC3MEOKGPGE6/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/Chi+Psi+house+2.jpg" title="My Backyard" style="width:50px;height:50px;margin:5px">
+        </a>
+        <h1>Unique CSS Command</h1>
+        <style>
+            .cool-border {
+              width: 200px;
+              padding: 30px;
+              border: 1em double #edb742;
+              border-image: url(/pix/css/css3/properties/border-image-1.png) 30 30 round;
+            }
+            </style>
+            <div class="cool-border">
+              This box has a cool border
+            </div>
+    </body>
+    <h1>Text that is centered on a photo</h1>
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        .container {
+          position: relative;
+          text-align: center;
+          color: white;
+        }
+        
+        .bottom-left {
+          position: absolute;
+          bottom: 8px;
+          left: 16px;
+        }
+        
+        .top-left {
+          position: absolute;
+          top: 8px;
+          left: 16px;
+        }
+        
+        .top-right {
+          position: absolute;
+          top: 8px;
+          right: 16px;
+        }
+        
+        .bottom-right {
+          position: absolute;
+          bottom: 8px;
+          right: 16px;
+        }
+        
+        .centered {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+        </style>
+        </head>
+
+      <div class="container">
+        <img src="https://images.pexels.com/photos/1802268/pexels-photo-1802268.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Snow" style="width:300px;height:400px;margin:5px">
+        <div class="centered">Ocean</div>
+      </div>
+      
+      </body>
+
+    <h1>A photo with 20 pixel margins on each side</h1>
+    <a href="https://uwifc.com/chi-psi">
+        <img src="https://images.squarespace-cdn.com/content/v1/570ec8a48259b53bf09d3da4/1557943112711-EKPY5TY7DC3MEOKGPGE6/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/Chi+Psi+house+2.jpg" title="My Backyard" style="width:200px;height:200px;margin:20px">
+    </a>
+<h1>Text with a border that uses dotted lines</h1>
+    <head>
+        <style>
+        p.dotted {border-style: dotted;}
+        p.dashed {border-style: dashed;}
+        p.solid {border-style: solid;}
+        p.double {border-style: double;}
+        p.groove {border-style: groove;}
+        p.ridge {border-style: ridge;}
+        p.inset {border-style: inset;}
+        p.outset {border-style: outset;}
+        p.none {border-style: none;}
+        p.hidden {border-style: hidden;}
+        p.mix {border-style: dotted dashed solid double;}
+        </style>
+        </head>
+        <body>
+        <p class="dotted">Go Lakers, we are the best team in Los Angeles! We Won the 2020 Championship and nothing can stop us with LeBron James on our team!!!</p>
+        </body>
+</html>
