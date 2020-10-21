@@ -1,0 +1,137 @@
+body{
+background-image: url('Yellow.png');
+}
+
+p{
+	font-weight: bold;
+	color: white;
+	font-family: "Arial";
+	background-color: #8E41D5; 
+	font-variant: small-caps;
+}
+
+h2{
+	color: #FFBC00;
+	font-size: 40px;
+	font-family: "Passion One";
+	margin-bottom: 0px;
+	background-color: #8E41D5; 
+}
+
+label{
+color: #FFBC00;
+	font-size: 40px;
+	font-family: "Passion One";
+	margin-bottom: 0px;
+	background-color: #8E41D5;
+	text-align: center;
+}
+
+li{
+background-color: #8E41D5; 
+
+}
+
+#Fieldset{
+width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10 px;
+	border:solid 8px black;
+	text-align: center;
+	background-color: #8E41D5; 
+	font-variant: small-caps;
+	letter-spacing: normal;
+}
+
+#Header{
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10 px;
+	border:solid 8px black;
+	text-align: center;
+	background-color: #8E41D5; 
+	font-variant: small-caps;
+	letter-spacing: normal;
+	border-color: gold
+}
+
+#Header h1{
+	font-size: 60px;
+	font-family: "Passion One";
+	color: #FFBC00;
+	font-weight: bold;
+	background-color: #8E41D5; 
+	font-variant: small-caps;
+	letter-spacing: normal;
+	border-color: gold
+}
+
+#LeftNav{
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10 px;
+	float: left;
+	border:solid 8px black;
+	text-align: center;
+	padding-bottom: 8px;
+	padding-left: 8px;
+	background-color: #8E41D5; 
+	font-variant: small-caps;
+	text-decoration: none;
+	letter-spacing: normal;
+	border-color: gold
+}
+
+#LeftNav img{
+background-color: #8E41D5; 
+}
+
+#LeftNav ul{
+background-color: #8E41D5; 
+}
+
+#LeftNav h3{
+background-color: #8E41D5; 
+}
+
+#Content{
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10 px;
+	border:solid 8px black;
+	text-align: center;
+	padding-bottom: 15px;
+	padding-left: 8px;
+	padding-top; 8px;
+	padding-right; 8px
+	background-color: #8E41D5; 
+	background: #8E41D5;
+	text-indent: 30px;
+	border-color: gold
+}
+
+#Footer{
+	border:solid 8px black;
+	text-align: center;
+	background-color: #8E41D5; 
+	font-variant: small-caps;
+	border-color: gold
+}
+
+ul{
+	list-style-type: none;
+	padding-left: 0px;
+	padding-top; 8px;
+	background-color: #8E41D5; 
+}
+
+a{
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
+	font-weight: normal
+}
